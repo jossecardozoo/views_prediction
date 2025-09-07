@@ -1,0 +1,24 @@
+CREATE OR REPLACE TABLE `antel-equipo4.desafio_antel.tabla_desafio_sin_nulls` AS
+SELECT
+  event_date,
+  event_timestamp,
+  event_name,
+  event_params,
+  event_previous_timestamp,
+  event_bundle_sequence_id,
+  event_server_timestamp_offset,
+  user_pseudo_id,
+  privacy_info,
+  user_properties,
+  user_first_touch_timestamp,
+  device,
+  geo,
+  app_info,
+  traffic_source,
+  stream_id,
+  platform,
+  ecommerce,
+  items,
+  batch_event_index
+FROM
+  `antel-equipo4.desafio_antel.tabla_desafio`
